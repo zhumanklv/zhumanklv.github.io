@@ -1,8 +1,39 @@
- .first{
-  
+header{
+    text-align: center;
 }
-body{
-   background-color: rgba(0, 139, 23, 0.699);
-   background-image: url(bi.jpg);
- background-blend-mode: darken;
+.bg{
+    margin-top: 15px;
+    height: 90%;
+    width: 100%;
+    font-size:x-large;
+    text-align: center;
+    background-color: rgba(0, 134, 139, 0.952);
+    clip-path: polygon(0 1%, 100% 0, 100% 72%, 23% 100%, 0 100%, 0% 50%);
+    position: absolute;
+    z-index: -1;
+}
+.container
+{
+  margin-top: 200px;
+  margin-bottom: 15px;
+  width: 250px;
+}
+
+.box{
+    /*box-shadow: 0 0 4px 0 #ffa709;*/
+    position: relative;
+    padding: 15px;
+}
+.col{
+    width: 100 px;
+}
+/*.progress-bar{
+    background-color: darkred;
+    margin: 10 px;
+}*/
+.progress{
+    margin: 20 px;
+}
+a:link{
+    color: black;
 }

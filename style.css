@@ -35,7 +35,7 @@ header{
     margin: 20 px;
 }
 
-.container py-3 text{
+.container text-center py-3 {
     width: 100%;
     height: 50vh;
 }

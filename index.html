@@ -1,91 +1,88 @@
 <!DOCTYPE html>
-<html>
- <head>
-   <title>cv Daniyel Zhumankulov</title>
-   <link rel="stylesheet" href= "style.css">
-   <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <style>
-     a:link{
-       color:black;
-     }
-  </style>
- </head>
- <body>
-   <header><h1>Daniyel Zhumankulov</h1></header>
-    <div class ="bg"><p>Hi, my name is Daniyel.<br>I am a Computer Science student at Nazarbayev University.</p></div>
-    <div class ="container">
-      <div class ="row">
-        <div class="col">
-          <div class ="box">
-         <h2>High School</h2>
-           <a href="#"><i class="fal fa-school"></i></a>
-           <p>I graduated from National School of Physics and Maths in Almaty with overall GPA of 5.0/5.0. As a result, I was awarded with a golden medal for academic excellence. </p>
-          </div>      
-          </div>
-       <div class="col">
-         <div class ="box">
-        <h2>Nazarbayev University</h2>
-          <i class="fal fa-school"></i>
-          <p>Foundation I got from my high school helped me get into Nazarbayev University. I am striving to get Bachelor's degree in CS and my current GPA is 3.56. </p>
-         </div>      
+<head lang="en">
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <a class="nav__link" href="index.html#about">About Me</a>
+                <a class="nav__link" href="index.html#school">Background</a>
+                <a class ="nav__link" href="resume.pdf" target="_blank">Resume</a>
+                <a class = "nav__link" href="index.html#projects">Projects</a>
+                <a class="nav__link" href="index.html#skills">Skills</a>
+            </nav>
         </div>
-        <div class="col">
-          <div class ="box">
-         <h2>Experience</h2>
-           <p>I have a good understanding of OOP concepts like inheritence, polymorphism, encapsulation. I completed several projects in Java, Python and in C++. Furthermore, I did a project on Java Spring Boot Software testing. Lastly, I have a basic knowledge of HTML, CSS and Bootstrap. </p>
-          </div>      
-         </div>
-      </div>
-
-      <div class ="row">
-        <div class ="col">
-           <div class ="box">
-               <h2> Technical Skills</h2>
-                    <ul>
-                       <li>C++</li>
-                       <li>Java</li>
-                       <li>Python</li>
-                       <li>HTML/CSS/Bootstrap/JavaScript</li>
-                    </ul>
+    </header>
+    <div class="intro">
+        <div class="container">
+           <div class="intro__title">
+               <div class="smth">Hello,<br> I am Daniyel</div>
            </div>
         </div>
-
-        <div class="col">
-           <div class="box">
-              <h2>Download my <a href="resume.pdf" target="_blank">resume</a></h2>
-           </div>
-        </div>
-      </div>
     </div>
 
-    <footer class="page-footer bg-dark">
-       <div class = "bg-success">
-          <div class="container">
-              <div class = "row py-4 d-flex align-items-center">
-                 <div class="col-md-12 text-center">
-                     <a href="https://instagram.com/zhumanklv" target="_blank"><img src="insta.png"></a>
-                     <a href="https://linkedin.com/in/ 
-                     daniyel-zhumankulov-11635b1aa" target="_blank"><img src="linkedin.png"></a>
-                 </div>
-              </div>
-          </div>
-       </div>
+    <div class="about" id="about">
+           <div class="about__title">About me</div>
+           <div class="about__text">I am a hardworking passionate Computer Science student at Nazarbayev University who wants to be a professional Software Engineer. I have an experience of working in teams and I can get along with people well. I am competent and open-minded person who wants to make clients' service-use better.</div>
+    </div>
+    <div class="school" id ="school">
+        <div class="school__title">Background</div>
+        <div class="school__text">I graduated from National School of Physics and Mathematics with overall GPA of 5.0/5.0. As a result, I was awarded with a golden medal for academic excellence. NSPhM gave me a strong foundation for my future and I could get admitted to Nazarbayev University.
+        </div>
+    </div>
 
-       <div class="container text-center">
-               <div class="col-md-12 mx-auto">
-                     <ul class ="list-unstyled">
-                         <li class="my-2"><img src="home.png"> Kazakstan, Nur-Sultan, Kabanbay Batyr, 53</li>
-                         <li class="my-2"><img src="envelope.png"> daniyel.zhumankulov@nu.edu.kz</li>
-                     </ul>
-              </div>
-       </div>
+    <div class="projects" id ="projects">
+        <div class="projects__title">Projects</div>
+        <div class="projects__inner">
+            <ul>
+              <li class="project__item"><b>Java Spring Boot</b> Testing Created a basic JUnit Test to test the class with various input parameters. Created an
+              Integration test using the Spring Boot Testing Framework with Java. Developed an integration test using MockMvc
+              to allow serverless Integration</li>
+              <li class="project__item"><b>Expression Evaluator</b> Created a program on Java using mainly concepts of OOP such as Inheritance and Polymorphism in Java</li>
+              <li class="project__item"><b>Booking Manager</b> Built a program on C++ that manages to quantify the number of rooms and the number of
+                clients in a hotel in the last 24 hours by optimizing it using complex data structures from almost 2 seconds to 0.24
+                seconds</li>
+           </ul>
+        </div>
+    </div>
+    
 
-      <div class="footer-copyright text-center py-3">
-          <p>&copy; Copyright <a href="https://github.com/zhumanklv" target="_blank">zhumanklv</a></p>
-          <p>Designed By Daniyel Zhumankulov</p>
-      </div>
-    </footer>
-  </body>
-  
+    <div class="skills" id ="skills">
+       <div class="skills__title">Skills</div>
+       <div class="skills__item1">C++</div>
+       <div class="skills__item2">Java</div>
+       <div class="skills__item3">Python</div>
+       <div class="skills__item4">JavaScript</div>
+       <div class="skills__item5">HTML/CSS</div>
+    </div>
+
+    <div class = "bg-success">
+        <div class="container">
+            <div class = "row py-4 d-flex align-items-center">
+               <div class="col-md-12 text-center">
+                   <a href="https://instagram.com/zhumanklv" target="_blank"><img src="insta.png"></a>
+                   <a href="https://linkedin.com/in/ 
+                   daniyel-zhumankulov-11635b1aa" target="_blank"><img src="linkedin.png"></a>
+               </div>
+            </div>
+        </div>
+     </div>
+
+     <footer class="footer">
+         <div class="footer__inner">
+             <ul class="list-unstyled">
+                <li class="footer__item"><img src="home.png"> Kazakhstan, Nur-Sultan, Kabanbay Batyr, 53</li>
+                <li class="footer__item"><img src="envelope.png"> daniyel.zhumankulov@nu.edu.kz</li>
+             </ul>
+         </div>     
+             <div class="footer__bottom">  
+                <div class="footer__text">&copy; Copyright <a href="https://github.com/zhumanklv" target="_blank">zhumanklv</a></div>
+                <div class="footer__text">Designed By Daniyel Zhumankulov</div>
+            </div>
+             
+     </footer>
+</body>
 </html>

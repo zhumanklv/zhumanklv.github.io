@@ -115,14 +115,15 @@ nav{
     width: 100%;
     max-width: 300px;
     top: 20%;
-    left: 600px;
+    left: 40%;
 
 }
 
 .school{
     background: url(school.jpg) center no-repeat;
     background-size: cover;
-    background-image: linear-gradient(rgb(102, 137, 153), rgb(167, 98, 98)), url(school.jpg);
+    background-blend-mode: lighten;
+    background-image: linear-gradient(rgba(211, 211, 211, 0.658), rgba(117, 143, 182, 0.966)), url(school.jpg);
     width: 100%;
     height: 70vh;
     text-align: center;
@@ -140,7 +141,7 @@ nav{
 .school__text{
     position: absolute;
    
-    left: 550px;
+    left: 36.9%;
     top: 20%;
     text-align: center;
     width: 100%;
@@ -149,13 +150,14 @@ nav{
 
 .projects{
     background: url(coding2.jpg) center no-repeat;
-    background-image: linear-gradient(rgba(122, 59, 59, 0.61), rgb(30, 22, 100)) url(coding2.jpg);
     background-size: cover;
+    background-blend-mode: lighten;
+    background-image: linear-gradient(rgba(211, 211, 211, 0.658), rgba(117, 143, 182, 0.966)), url(coding2.jpg);
     width: 100%;
     height: 70vh;
     margin-top: 0;
     padding-top: 30px;
-    color:rgb(255, 255, 255)
+    color: rgb(0, 0, 0);
 }
 .projects__title{
     text-align: center;
@@ -182,7 +184,9 @@ nav{
     max-width: 950 px;
     background: url(skills.jpg) center no-repeat;
     background-size: cover;
-    color: #fff;
+    background-blend-mode: lighten;
+    background-image: linear-gradient(rgba(211, 211, 211, 0.658), rgba(117, 143, 182, 0.966)), url(skills.jpg);
+    color: rgb(0, 0, 0);
     height: 70vh;
 }
 
@@ -193,7 +197,7 @@ nav{
 }
 
 .skills__item1{
-    margin-left: 450px;
+    margin-left: 29.7%;
     padding: 20px;
    border-bottom: 4px solid rgb(221, 200, 12);
     width: 100%;
@@ -213,28 +217,8 @@ nav{
     background-color: brown;
 }
 
-.skills__item1{
-    margin-left: 450px;
-    padding: 20px;
-   border-bottom: 4px solid rgb(221, 200, 12);
-    width: 100%;
-    max-width: 600px;
-    position: relative;
-}
-
-.skills__item1::after{
-    content: "";
-    width: 70%;
-    height: 3px;
-    position: absolute;
-    bottom:-3px;
-    left:0;
-    z-index: 1;
-    
-    background-color: brown;
-}
 .skills__item2{
-    margin-left: 450px;
+    margin-left: 29.7%;
     padding: 20px;
    border-bottom: 4px solid rgb(221, 200, 12);
     width: 100%;
@@ -254,7 +238,7 @@ nav{
     background-color: brown;
 }
 .skills__item3{
-    margin-left: 450px;
+    margin-left: 29.7%;
     padding: 20px;
    border-bottom: 4px solid rgb(221, 200, 12);
     width: 100%;
@@ -275,7 +259,7 @@ nav{
 }
 
 .skills__item4{
-    margin-left: 450px;
+    margin-left: 29.7%;
     padding: 20px;
    border-bottom: 4px solid rgb(221, 200, 12);
     width: 100%;
@@ -296,7 +280,7 @@ nav{
 }
 
 .skills__item5{
-    margin-left: 450px;
+    margin-left: 29.7%;
     padding: 20px;
    border-bottom: 4px solid rgb(221, 200, 12);
     width: 100%;
@@ -346,4 +330,10 @@ nav{
 .footer__text{
     display:block;
     text-align: center;
+}
+
+.copyright{
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    transition: color 0.2s linear;
 }
